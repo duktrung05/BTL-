@@ -1,0 +1,6 @@
+category,precision,recall,f1,support
+Cardiovascular diseases,0.813665,0.873333,0.842444,150
+Digestive system diseases,0.910891,0.867925,0.888889,106
+General pathological conditions,0.601562,0.513333,0.553957,150
+Neoplasms,0.830189,0.88,0.854369,150
+Nervous system diseases,0.745223,0.78,0.762215,150

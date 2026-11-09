@@ -1,0 +1,536 @@
+{
+  "experiments": [
+    {
+      "experiment": 1,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 2,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 12351,
+      "validation_accuracy": 0.768466,
+      "validation_macro_f1": 0.76896,
+      "validation_macro_precision": 0.767941,
+      "validation_macro_recall": 0.77382,
+      "vectorization_seconds": 0.401,
+      "model_seconds": 0.094
+    },
+    {
+      "experiment": 2,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 2,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 12351,
+      "validation_accuracy": 0.785511,
+      "validation_macro_f1": 0.785425,
+      "validation_macro_precision": 0.784108,
+      "validation_macro_recall": 0.79041,
+      "vectorization_seconds": 0.401,
+      "model_seconds": 0.093
+    },
+    {
+      "experiment": 3,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 2,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 12351,
+      "validation_accuracy": 0.792614,
+      "validation_macro_f1": 0.790891,
+      "validation_macro_precision": 0.789489,
+      "validation_macro_recall": 0.795897,
+      "vectorization_seconds": 0.401,
+      "model_seconds": 0.09
+    },
+    {
+      "experiment": 4,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 3,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 9094,
+      "validation_accuracy": 0.772727,
+      "validation_macro_f1": 0.773119,
+      "validation_macro_precision": 0.772235,
+      "validation_macro_recall": 0.777231,
+      "vectorization_seconds": 0.387,
+      "model_seconds": 0.1
+    },
+    {
+      "experiment": 5,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 3,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 9094,
+      "validation_accuracy": 0.775568,
+      "validation_macro_f1": 0.775598,
+      "validation_macro_precision": 0.77525,
+      "validation_macro_recall": 0.779897,
+      "vectorization_seconds": 0.387,
+      "model_seconds": 0.092
+    },
+    {
+      "experiment": 6,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 3,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 9094,
+      "validation_accuracy": 0.778409,
+      "validation_macro_f1": 0.777649,
+      "validation_macro_precision": 0.776618,
+      "validation_macro_recall": 0.782564,
+      "vectorization_seconds": 0.387,
+      "model_seconds": 0.09
+    },
+    {
+      "experiment": 7,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 5,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 6304,
+      "validation_accuracy": 0.754261,
+      "validation_macro_f1": 0.756133,
+      "validation_macro_precision": 0.755855,
+      "validation_macro_recall": 0.759308,
+      "vectorization_seconds": 0.402,
+      "model_seconds": 0.088
+    },
+    {
+      "experiment": 8,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 5,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 6304,
+      "validation_accuracy": 0.759943,
+      "validation_macro_f1": 0.760633,
+      "validation_macro_precision": 0.759442,
+      "validation_macro_recall": 0.764641,
+      "vectorization_seconds": 0.402,
+      "model_seconds": 0.084
+    },
+    {
+      "experiment": 9,
+      "model": "NB-1",
+      "mode": "count",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 5,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 6304,
+      "validation_accuracy": 0.762784,
+      "validation_macro_f1": 0.762585,
+      "validation_macro_precision": 0.760673,
+      "validation_macro_recall": 0.767308,
+      "vectorization_seconds": 0.402,
+      "model_seconds": 0.088
+    },
+    {
+      "experiment": 10,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 2,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 12351,
+      "validation_accuracy": 0.794034,
+      "validation_macro_f1": 0.79257,
+      "validation_macro_precision": 0.791683,
+      "validation_macro_recall": 0.796051,
+      "vectorization_seconds": 0.522,
+      "model_seconds": 0.116
+    },
+    {
+      "experiment": 11,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 2,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 12351,
+      "validation_accuracy": 0.772727,
+      "validation_macro_f1": 0.762845,
+      "validation_macro_precision": 0.776282,
+      "validation_macro_recall": 0.763667,
+      "vectorization_seconds": 0.522,
+      "model_seconds": 0.102
+    },
+    {
+      "experiment": 12,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 2,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 12351,
+      "validation_accuracy": 0.732955,
+      "validation_macro_f1": 0.707403,
+      "validation_macro_precision": 0.746568,
+      "validation_macro_recall": 0.713359,
+      "vectorization_seconds": 0.522,
+      "model_seconds": 0.1
+    },
+    {
+      "experiment": 13,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 3,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 9094,
+      "validation_accuracy": 0.78125,
+      "validation_macro_f1": 0.778146,
+      "validation_macro_precision": 0.776452,
+      "validation_macro_recall": 0.784051,
+      "vectorization_seconds": 0.523,
+      "model_seconds": 0.091
+    },
+    {
+      "experiment": 14,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 3,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 9094,
+      "validation_accuracy": 0.772727,
+      "validation_macro_f1": 0.767242,
+      "validation_macro_precision": 0.775955,
+      "validation_macro_recall": 0.767205,
+      "vectorization_seconds": 0.523,
+      "model_seconds": 0.089
+    },
+    {
+      "experiment": 15,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 3,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 9094,
+      "validation_accuracy": 0.747159,
+      "validation_macro_f1": 0.729951,
+      "validation_macro_precision": 0.757439,
+      "validation_macro_recall": 0.732,
+      "vectorization_seconds": 0.523,
+      "model_seconds": 0.089
+    },
+    {
+      "experiment": 16,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 5,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 6304,
+      "validation_accuracy": 0.771307,
+      "validation_macro_f1": 0.770443,
+      "validation_macro_precision": 0.768253,
+      "validation_macro_recall": 0.773538,
+      "vectorization_seconds": 0.473,
+      "model_seconds": 0.085
+    },
+    {
+      "experiment": 17,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 5,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 6304,
+      "validation_accuracy": 0.762784,
+      "validation_macro_f1": 0.756731,
+      "validation_macro_precision": 0.759526,
+      "validation_macro_recall": 0.758462,
+      "vectorization_seconds": 0.473,
+      "model_seconds": 0.087
+    },
+    {
+      "experiment": 18,
+      "model": "NB-2",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 5,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 6304,
+      "validation_accuracy": 0.74858,
+      "validation_macro_f1": 0.738018,
+      "validation_macro_precision": 0.756249,
+      "validation_macro_recall": 0.736872,
+      "vectorization_seconds": 0.473,
+      "model_seconds": 0.09
+    },
+    {
+      "experiment": 19,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 40000,
+      "validation_accuracy": 0.784091,
+      "validation_macro_f1": 0.782038,
+      "validation_macro_precision": 0.787326,
+      "validation_macro_recall": 0.78141,
+      "vectorization_seconds": 1.33,
+      "model_seconds": 0.177
+    },
+    {
+      "experiment": 20,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 40000,
+      "validation_accuracy": 0.742898,
+      "validation_macro_f1": 0.728405,
+      "validation_macro_precision": 0.762009,
+      "validation_macro_recall": 0.72741,
+      "vectorization_seconds": 1.33,
+      "model_seconds": 0.18
+    },
+    {
+      "experiment": 21,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 40000,
+      "validation_accuracy": 0.704545,
+      "validation_macro_f1": 0.667464,
+      "validation_macro_precision": 0.740738,
+      "validation_macro_recall": 0.678436,
+      "vectorization_seconds": 1.33,
+      "model_seconds": 0.17
+    },
+    {
+      "experiment": 22,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 3,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 34630,
+      "validation_accuracy": 0.776989,
+      "validation_macro_f1": 0.775775,
+      "validation_macro_precision": 0.781185,
+      "validation_macro_recall": 0.774154,
+      "vectorization_seconds": 1.151,
+      "model_seconds": 0.171
+    },
+    {
+      "experiment": 23,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 3,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 34630,
+      "validation_accuracy": 0.740057,
+      "validation_macro_f1": 0.725988,
+      "validation_macro_precision": 0.752733,
+      "validation_macro_recall": 0.725333,
+      "vectorization_seconds": 1.151,
+      "model_seconds": 0.169
+    },
+    {
+      "experiment": 24,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 3,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 34630,
+      "validation_accuracy": 0.707386,
+      "validation_macro_f1": 0.675659,
+      "validation_macro_precision": 0.743709,
+      "validation_macro_recall": 0.682872,
+      "vectorization_seconds": 1.151,
+      "model_seconds": 0.176
+    },
+    {
+      "experiment": 25,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 5,
+      "alpha": 0.1,
+      "max_features": 40000,
+      "vocabulary_size": 19023,
+      "validation_accuracy": 0.767045,
+      "validation_macro_f1": 0.766066,
+      "validation_macro_precision": 0.769718,
+      "validation_macro_recall": 0.76482,
+      "vectorization_seconds": 1.056,
+      "model_seconds": 0.134
+    },
+    {
+      "experiment": 26,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 5,
+      "alpha": 0.5,
+      "max_features": 40000,
+      "vocabulary_size": 19023,
+      "validation_accuracy": 0.744318,
+      "validation_macro_f1": 0.737155,
+      "validation_macro_precision": 0.753622,
+      "validation_macro_recall": 0.734641,
+      "vectorization_seconds": 1.056,
+      "model_seconds": 0.132
+    },
+    {
+      "experiment": 27,
+      "model": "NB-3",
+      "mode": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 5,
+      "alpha": 1.0,
+      "max_features": 40000,
+      "vocabulary_size": 19023,
+      "validation_accuracy": 0.715909,
+      "validation_macro_f1": 0.692735,
+      "validation_macro_precision": 0.746198,
+      "validation_macro_recall": 0.695,
+      "vectorization_seconds": 1.056,
+      "model_seconds": 0.133
+    }
+  ],
+  "selected": {
+    "experiment": 10,
+    "model": "NB-2",
+    "mode": "tfidf",
+    "ngram_range": [
+      1,
+      1
+    ],
+    "min_df": 2,
+    "alpha": 0.1,
+    "max_features": 40000,
+    "vocabulary_size": 12351,
+    "validation_accuracy": 0.794034,
+    "validation_macro_f1": 0.79257,
+    "validation_macro_precision": 0.791683,
+    "validation_macro_recall": 0.796051,
+    "vectorization_seconds": 0.522,
+    "model_seconds": 0.116
+  }
+}

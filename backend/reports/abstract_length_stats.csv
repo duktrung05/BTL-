@@ -1,0 +1,6 @@
+category,min,p25,median,mean,p75,max
+Cardiovascular diseases,24,140.0,189.5,185.51,232.25,568
+Digestive system diseases,41,120.0,172.0,169.52,214.0,367
+General pathological conditions,26,110.0,155.0,160.1,204.25,420
+Neoplasms,25,115.75,161.0,163.63,208.0,390
+Nervous system diseases,31,110.0,147.0,155.97,200.0,535

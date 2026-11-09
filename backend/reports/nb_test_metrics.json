@@ -1,0 +1,81 @@
+{
+  "created_at_utc": "2026-11-05T10:26:40.024482+00:00",
+  "implementation": "pure-python MultinomialNB (dependency-free reference implementation)",
+  "selection_metric": "validation_macro_f1",
+  "text_field": "abstract",
+  "best_configuration": {
+    "experiment": 10,
+    "model": "NB-2",
+    "mode": "tfidf",
+    "ngram_range": [
+      1,
+      1
+    ],
+    "min_df": 2,
+    "alpha": 0.1,
+    "max_features": 40000,
+    "vocabulary_size": 12351,
+    "validation_accuracy": 0.794034,
+    "validation_macro_f1": 0.79257,
+    "validation_macro_precision": 0.791683,
+    "validation_macro_recall": 0.796051,
+    "vectorization_seconds": 0.522,
+    "model_seconds": 0.116
+  },
+  "final_training_records": 3993,
+  "test_records": 706,
+  "class_order": [
+    "Cardiovascular diseases",
+    "Digestive system diseases",
+    "General pathological conditions",
+    "Neoplasms",
+    "Nervous system diseases"
+  ],
+  "test_metrics": {
+    "accuracy": 0.77762,
+    "macro_precision": 0.780306,
+    "macro_recall": 0.782918,
+    "macro_f1": 0.780375,
+    "weighted_f1": 0.773612,
+    "class_order": [
+      "Cardiovascular diseases",
+      "Digestive system diseases",
+      "General pathological conditions",
+      "Neoplasms",
+      "Nervous system diseases"
+    ],
+    "total": 706
+  },
+  "per_class": {
+    "Cardiovascular diseases": {
+      "precision": 0.813665,
+      "recall": 0.873333,
+      "f1": 0.842444,
+      "support": 150
+    },
+    "Digestive system diseases": {
+      "precision": 0.910891,
+      "recall": 0.867925,
+      "f1": 0.888889,
+      "support": 106
+    },
+    "General pathological conditions": {
+      "precision": 0.601562,
+      "recall": 0.513333,
+      "f1": 0.553957,
+      "support": 150
+    },
+    "Neoplasms": {
+      "precision": 0.830189,
+      "recall": 0.88,
+      "f1": 0.854369,
+      "support": 150
+    },
+    "Nervous system diseases": {
+      "precision": 0.745223,
+      "recall": 0.78,
+      "f1": 0.762215,
+      "support": 150
+    }
+  }
+}

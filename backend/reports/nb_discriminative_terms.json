@@ -1,0 +1,412 @@
+{
+  "Cardiovascular diseases": [
+    {
+      "term": "coronary",
+      "log_odds": 4.365232
+    },
+    {
+      "term": "myocardial",
+      "log_odds": 4.269445
+    },
+    {
+      "term": "cad",
+      "log_odds": 3.772866
+    },
+    {
+      "term": "hypertensive",
+      "log_odds": 3.682899
+    },
+    {
+      "term": "doxazosin",
+      "log_odds": 3.670069
+    },
+    {
+      "term": "ventricular",
+      "log_odds": 3.632025
+    },
+    {
+      "term": "tachycardia",
+      "log_odds": 3.625257
+    },
+    {
+      "term": "diastolic",
+      "log_odds": 3.573714
+    },
+    {
+      "term": "antihypertensive",
+      "log_odds": 3.534399
+    },
+    {
+      "term": "systolic",
+      "log_odds": 3.491339
+    },
+    {
+      "term": "renin",
+      "log_odds": 3.480786
+    },
+    {
+      "term": "angioplasty",
+      "log_odds": 3.449061
+    },
+    {
+      "term": "angina",
+      "log_odds": 3.385962
+    },
+    {
+      "term": "chd",
+      "log_odds": 3.36501
+    },
+    {
+      "term": "atenolol",
+      "log_odds": 3.347108
+    },
+    {
+      "term": "aortic",
+      "log_odds": 3.328406
+    },
+    {
+      "term": "diuretics",
+      "log_odds": 3.290648
+    },
+    {
+      "term": "congestive",
+      "log_odds": 3.238508
+    },
+    {
+      "term": "mitral",
+      "log_odds": 3.225515
+    },
+    {
+      "term": "lv",
+      "log_odds": 3.216437
+    }
+  ],
+  "Digestive system diseases": [
+    {
+      "term": "colitis",
+      "log_odds": 4.522462
+    },
+    {
+      "term": "gallstones",
+      "log_odds": 4.347573
+    },
+    {
+      "term": "crohn's",
+      "log_odds": 4.302112
+    },
+    {
+      "term": "cirrhosis",
+      "log_odds": 4.271083
+    },
+    {
+      "term": "stones",
+      "log_odds": 4.194124
+    },
+    {
+      "term": "gallstone",
+      "log_odds": 4.173259
+    },
+    {
+      "term": "ulcerative",
+      "log_odds": 4.154499
+    },
+    {
+      "term": "pylori",
+      "log_odds": 4.062338
+    },
+    {
+      "term": "gallbladder",
+      "log_odds": 3.821394
+    },
+    {
+      "term": "peptic",
+      "log_odds": 3.816909
+    },
+    {
+      "term": "lithotripsy",
+      "log_odds": 3.729225
+    },
+    {
+      "term": "omeprazole",
+      "log_odds": 3.68134
+    },
+    {
+      "term": "diarrhea",
+      "log_odds": 3.617115
+    },
+    {
+      "term": "helicobacter",
+      "log_odds": 3.560715
+    },
+    {
+      "term": "gastroesophageal",
+      "log_odds": 3.556718
+    },
+    {
+      "term": "ulcer",
+      "log_odds": 3.540218
+    },
+    {
+      "term": "coeliac",
+      "log_odds": 3.509581
+    },
+    {
+      "term": "reflux",
+      "log_odds": 3.505765
+    },
+    {
+      "term": "emptying",
+      "log_odds": 3.497196
+    },
+    {
+      "term": "cirrhotic",
+      "log_odds": 3.491973
+    }
+  ],
+  "General pathological conditions": [
+    {
+      "term": "arthroplasties",
+      "log_odds": 2.845714
+    },
+    {
+      "term": "deletions",
+      "log_odds": 2.744955
+    },
+    {
+      "term": "emphysema",
+      "log_odds": 2.721352
+    },
+    {
+      "term": "rewarming",
+      "log_odds": 2.710625
+    },
+    {
+      "term": "stridor",
+      "log_odds": 2.655384
+    },
+    {
+      "term": "revision",
+      "log_odds": 2.605134
+    },
+    {
+      "term": "cadaveric",
+      "log_odds": 2.540261
+    },
+    {
+      "term": "paralysis",
+      "log_odds": 2.540193
+    },
+    {
+      "term": "asthma",
+      "log_odds": 2.528224
+    },
+    {
+      "term": "oedema",
+      "log_odds": 2.490351
+    },
+    {
+      "term": "ears",
+      "log_odds": 2.475919
+    },
+    {
+      "term": "ari",
+      "log_odds": 2.471148
+    },
+    {
+      "term": "wheezing",
+      "log_odds": 2.461707
+    },
+    {
+      "term": "hypoxia",
+      "log_odds": 2.452742
+    },
+    {
+      "term": "hip",
+      "log_odds": 2.431578
+    },
+    {
+      "term": "trisomy",
+      "log_odds": 2.413478
+    },
+    {
+      "term": "arthroplasty",
+      "log_odds": 2.405865
+    },
+    {
+      "term": "f508",
+      "log_odds": 2.390723
+    },
+    {
+      "term": "n2o",
+      "log_odds": 2.37593
+    },
+    {
+      "term": "patient-controlled",
+      "log_odds": 2.360958
+    }
+  ],
+  "Neoplasms": [
+    {
+      "term": "metastases",
+      "log_odds": 4.319275
+    },
+    {
+      "term": "melanoma",
+      "log_odds": 4.233235
+    },
+    {
+      "term": "carcinoma",
+      "log_odds": 4.19766
+    },
+    {
+      "term": "squamous",
+      "log_odds": 4.138969
+    },
+    {
+      "term": "carcinomas",
+      "log_odds": 4.107139
+    },
+    {
+      "term": "cancer",
+      "log_odds": 4.05106
+    },
+    {
+      "term": "cancers",
+      "log_odds": 3.965311
+    },
+    {
+      "term": "breast",
+      "log_odds": 3.738352
+    },
+    {
+      "term": "adenocarcinoma",
+      "log_odds": 3.703604
+    },
+    {
+      "term": "papillomavirus",
+      "log_odds": 3.615334
+    },
+    {
+      "term": "tumor",
+      "log_odds": 3.605482
+    },
+    {
+      "term": "metastasis",
+      "log_odds": 3.585761
+    },
+    {
+      "term": "hpv",
+      "log_odds": 3.530496
+    },
+    {
+      "term": "metastatic",
+      "log_odds": 3.502291
+    },
+    {
+      "term": "tumors",
+      "log_odds": 3.466541
+    },
+    {
+      "term": "mammography",
+      "log_odds": 3.361269
+    },
+    {
+      "term": "staging",
+      "log_odds": 3.228099
+    },
+    {
+      "term": "ovarian",
+      "log_odds": 3.226041
+    },
+    {
+      "term": "fluorouracil",
+      "log_odds": 3.207997
+    },
+    {
+      "term": "malignancies",
+      "log_odds": 3.202532
+    }
+  ],
+  "Nervous system diseases": [
+    {
+      "term": "pd",
+      "log_odds": 3.792497
+    },
+    {
+      "term": "seizures",
+      "log_odds": 3.767307
+    },
+    {
+      "term": "parkinson's",
+      "log_odds": 3.725998
+    },
+    {
+      "term": "dementia",
+      "log_odds": 3.628486
+    },
+    {
+      "term": "seizure",
+      "log_odds": 3.62178
+    },
+    {
+      "term": "meningitis",
+      "log_odds": 3.497263
+    },
+    {
+      "term": "epilepsy",
+      "log_odds": 3.477898
+    },
+    {
+      "term": "migraine",
+      "log_odds": 3.465778
+    },
+    {
+      "term": "antiepileptic",
+      "log_odds": 3.408807
+    },
+    {
+      "term": "epileptic",
+      "log_odds": 3.379761
+    },
+    {
+      "term": "eeg",
+      "log_odds": 3.34203
+    },
+    {
+      "term": "spasticity",
+      "log_odds": 3.213714
+    },
+    {
+      "term": "cbz",
+      "log_odds": 3.207305
+    },
+    {
+      "term": "sleep",
+      "log_odds": 3.177818
+    },
+    {
+      "term": "carbamazepine",
+      "log_odds": 3.161638
+    },
+    {
+      "term": "latencies",
+      "log_odds": 3.156453
+    },
+    {
+      "term": "cognitive",
+      "log_odds": 3.112637
+    },
+    {
+      "term": "hydrocephalus",
+      "log_odds": 3.10125
+    },
+    {
+      "term": "cerebrospinal",
+      "log_odds": 3.088111
+    },
+    {
+      "term": "levodopa",
+      "log_odds": 3.063561
+    }
+  ]
+}

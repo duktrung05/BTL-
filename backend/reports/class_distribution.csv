@@ -1,0 +1,6 @@
+category,train,validation,test,total
+Cardiovascular diseases,700,150,150,1000
+Digestive system diseases,489,104,106,699
+General pathological conditions,700,150,150,1000
+Neoplasms,700,150,150,1000
+Nervous system diseases,700,150,150,1000

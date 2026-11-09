@@ -1,0 +1,492 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "duplicate_ids": false,
+  "cross_split_content_leakage": 0,
+  "class_counts": {
+    "Cardiovascular diseases": 1000,
+    "Digestive system diseases": 699,
+    "General pathological conditions": 1000,
+    "Neoplasms": 1000,
+    "Nervous system diseases": 1000
+  },
+  "split_counts": {
+    "train": {
+      "Cardiovascular diseases": 700,
+      "Digestive system diseases": 489,
+      "General pathological conditions": 700,
+      "Neoplasms": 700,
+      "Nervous system diseases": 700
+    },
+    "validation": {
+      "Cardiovascular diseases": 150,
+      "Digestive system diseases": 104,
+      "General pathological conditions": 150,
+      "Neoplasms": 150,
+      "Nervous system diseases": 150
+    },
+    "test": {
+      "Cardiovascular diseases": 150,
+      "Digestive system diseases": 106,
+      "General pathological conditions": 150,
+      "Neoplasms": 150,
+      "Nervous system diseases": 150
+    }
+  },
+  "abstract_token_lengths": {
+    "Cardiovascular diseases": {
+      "min": 24,
+      "p25": 140.0,
+      "median": 189.5,
+      "mean": 185.51,
+      "p75": 232.25,
+      "max": 568
+    },
+    "Digestive system diseases": {
+      "min": 41,
+      "p25": 120.0,
+      "median": 172.0,
+      "mean": 169.52,
+      "p75": 214.0,
+      "max": 367
+    },
+    "General pathological conditions": {
+      "min": 26,
+      "p25": 110.0,
+      "median": 155.0,
+      "mean": 160.1,
+      "p75": 204.25,
+      "max": 420
+    },
+    "Neoplasms": {
+      "min": 25,
+      "p25": 115.75,
+      "median": 161.0,
+      "mean": 163.63,
+      "p75": 208.0,
+      "max": 390
+    },
+    "Nervous system diseases": {
+      "min": 31,
+      "p25": 110.0,
+      "median": 147.0,
+      "mean": 155.97,
+      "p75": 200.0,
+      "max": 535
+    }
+  },
+  "top_terms_by_category": {
+    "Cardiovascular diseases": [
+      {
+        "term": "than",
+        "count": 1525
+      },
+      {
+        "term": "less",
+        "count": 973
+      },
+      {
+        "term": "coronary",
+        "count": 944
+      },
+      {
+        "term": "blood",
+        "count": 863
+      },
+      {
+        "term": "after",
+        "count": 861
+      },
+      {
+        "term": "pressure",
+        "count": 838
+      },
+      {
+        "term": "ventricular",
+        "count": 760
+      },
+      {
+        "term": "disease",
+        "count": 684
+      },
+      {
+        "term": "heart",
+        "count": 668
+      },
+      {
+        "term": "during",
+        "count": 645
+      },
+      {
+        "term": "left",
+        "count": 636
+      },
+      {
+        "term": "myocardial",
+        "count": 613
+      },
+      {
+        "term": "group",
+        "count": 605
+      },
+      {
+        "term": "artery",
+        "count": 604
+      },
+      {
+        "term": "hypertension",
+        "count": 574
+      },
+      {
+        "term": "treatment",
+        "count": 423
+      },
+      {
+        "term": "flow",
+        "count": 411
+      },
+      {
+        "term": "increased",
+        "count": 406
+      },
+      {
+        "term": "cardiac",
+        "count": 395
+      },
+      {
+        "term": "mean",
+        "count": 395
+      }
+    ],
+    "Digestive system diseases": [
+      {
+        "term": "than",
+        "count": 741
+      },
+      {
+        "term": "disease",
+        "count": 668
+      },
+      {
+        "term": "less",
+        "count": 459
+      },
+      {
+        "term": "after",
+        "count": 435
+      },
+      {
+        "term": "treatment",
+        "count": 340
+      },
+      {
+        "term": "liver",
+        "count": 329
+      },
+      {
+        "term": "group",
+        "count": 270
+      },
+      {
+        "term": "may",
+        "count": 270
+      },
+      {
+        "term": "two",
+        "count": 256
+      },
+      {
+        "term": "significantly",
+        "count": 244
+      },
+      {
+        "term": "gastric",
+        "count": 237
+      },
+      {
+        "term": "all",
+        "count": 231
+      },
+      {
+        "term": "normal",
+        "count": 231
+      },
+      {
+        "term": "one",
+        "count": 230
+      },
+      {
+        "term": "more",
+        "count": 219
+      },
+      {
+        "term": "during",
+        "count": 210
+      },
+      {
+        "term": "bowel",
+        "count": 210
+      },
+      {
+        "term": "compared",
+        "count": 204
+      },
+      {
+        "term": "esophageal",
+        "count": 196
+      },
+      {
+        "term": "who",
+        "count": 195
+      }
+    ],
+    "General pathological conditions": [
+      {
+        "term": "than",
+        "count": 729
+      },
+      {
+        "term": "after",
+        "count": 601
+      },
+      {
+        "term": "less",
+        "count": 414
+      },
+      {
+        "term": "group",
+        "count": 390
+      },
+      {
+        "term": "treatment",
+        "count": 385
+      },
+      {
+        "term": "during",
+        "count": 383
+      },
+      {
+        "term": "two",
+        "count": 330
+      },
+      {
+        "term": "may",
+        "count": 329
+      },
+      {
+        "term": "all",
+        "count": 313
+      },
+      {
+        "term": "one",
+        "count": 312
+      },
+      {
+        "term": "cases",
+        "count": 309
+      },
+      {
+        "term": "disease",
+        "count": 302
+      },
+      {
+        "term": "blood",
+        "count": 288
+      },
+      {
+        "term": "who",
+        "count": 284
+      },
+      {
+        "term": "acute",
+        "count": 279
+      },
+      {
+        "term": "patient",
+        "count": 273
+      },
+      {
+        "term": "been",
+        "count": 265
+      },
+      {
+        "term": "children",
+        "count": 265
+      },
+      {
+        "term": "years",
+        "count": 265
+      },
+      {
+        "term": "clinical",
+        "count": 258
+      }
+    ],
+    "Neoplasms": [
+      {
+        "term": "cancer",
+        "count": 912
+      },
+      {
+        "term": "tumor",
+        "count": 791
+      },
+      {
+        "term": "cell",
+        "count": 711
+      },
+      {
+        "term": "cells",
+        "count": 709
+      },
+      {
+        "term": "than",
+        "count": 703
+      },
+      {
+        "term": "carcinoma",
+        "count": 671
+      },
+      {
+        "term": "tumors",
+        "count": 551
+      },
+      {
+        "term": "cases",
+        "count": 456
+      },
+      {
+        "term": "treatment",
+        "count": 455
+      },
+      {
+        "term": "after",
+        "count": 416
+      },
+      {
+        "term": "all",
+        "count": 410
+      },
+      {
+        "term": "survival",
+        "count": 406
+      },
+      {
+        "term": "disease",
+        "count": 385
+      },
+      {
+        "term": "human",
+        "count": 366
+      },
+      {
+        "term": "breast",
+        "count": 362
+      },
+      {
+        "term": "less",
+        "count": 340
+      },
+      {
+        "term": "one",
+        "count": 339
+      },
+      {
+        "term": "therapy",
+        "count": 333
+      },
+      {
+        "term": "may",
+        "count": 332
+      },
+      {
+        "term": "clinical",
+        "count": 330
+      }
+    ],
+    "Nervous system diseases": [
+      {
+        "term": "than",
+        "count": 613
+      },
+      {
+        "term": "after",
+        "count": 494
+      },
+      {
+        "term": "disease",
+        "count": 404
+      },
+      {
+        "term": "may",
+        "count": 402
+      },
+      {
+        "term": "brain",
+        "count": 399
+      },
+      {
+        "term": "treatment",
+        "count": 383
+      },
+      {
+        "term": "during",
+        "count": 369
+      },
+      {
+        "term": "clinical",
+        "count": 340
+      },
+      {
+        "term": "group",
+        "count": 326
+      },
+      {
+        "term": "cerebral",
+        "count": 322
+      },
+      {
+        "term": "pain",
+        "count": 318
+      },
+      {
+        "term": "all",
+        "count": 295
+      },
+      {
+        "term": "more",
+        "count": 284
+      },
+      {
+        "term": "less",
+        "count": 272
+      },
+      {
+        "term": "patient",
+        "count": 270
+      },
+      {
+        "term": "subjects",
+        "count": 261
+      },
+      {
+        "term": "normal",
+        "count": 258
+      },
+      {
+        "term": "both",
+        "count": 249
+      },
+      {
+        "term": "syndrome",
+        "count": 246
+      },
+      {
+        "term": "two",
+        "count": 243
+      }
+    ]
+  },
+  "manual_review_file": "data/processed/manual_label_review.csv",
+  "manual_review_status": "PENDING"
+}

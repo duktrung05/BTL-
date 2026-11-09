@@ -1,0 +1,4 @@
+# Pipeline hiện tại chỉ dùng Python standard library (Python 3.11+).
+# Implementation thuần Python giúp chạy được trong môi trường không có NumPy/
+# scikit-learn; quy trình và công thức tương ứng Count/TF-IDF + MultinomialNB.
+
